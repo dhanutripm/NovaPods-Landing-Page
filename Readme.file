@@ -1,0 +1,31 @@
+
+# NovaPods Product Landing Page
+
+## About the Project
+NovaPods is a responsive product landing page
+designed to showcase wireless earbuds.
+
+## Features
+- Navigation bar
+- Hero section with product image
+- Product features and benefits
+- Customer reviews
+- Call-to-action section
+- Footer with contact information
+- Responsive layout for mobile and desktop
+
+## Technologies Used
+- HTML5
+- CSS3
+- Flexbox
+- CSS Grid
+- Media Queries
+
+## How to Run
+1. Download or clone this repository.
+2. Open index.html in a web browser.
+
+## Project Purpose
+This project was created as a Web Development
+Week 02 Minor Project to practise responsive
+web design and CSS layouts.

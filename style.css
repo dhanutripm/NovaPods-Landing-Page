@@ -1,0 +1,339 @@
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Your existing body code */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8fafc;
+    color: #1e293b;
+}
+
+
+
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #222222;
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading styling */
+h1 {
+    color: #172554;
+    font-size: 40px;
+}
+
+h2 {
+    color: #1e3a8a;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Section spacing */
+section {
+    padding: 30px;
+    margin: 20px;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #172554;
+    color: white;
+    padding: 15px 30px;
+}
+
+/* Brand name */
+nav h2 {
+    color: white;
+    margin: 0;
+}
+
+/* Navigation links */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+/* Change link color when mouse is over it */
+nav a:hover {
+    color: #93c5fd;
+}
+
+
+/* Hero heading */
+#home h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+/* Hero description */
+#home p {
+    font-size: 18px;
+    color: #555555;
+}
+
+
+/* Product image */
+#home img {
+    width: 100%;
+    max-width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+/* Button styling */
+button {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #1d4ed8;
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+
+/* Button hover effect */
+button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Features section */
+#features {
+    background-color: white;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+/* Benefits section */
+#benefits {
+    background-color: #eaf2ff;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+/* Feature headings */
+#features h3 {
+    color: #1d4ed8;
+    margin-bottom: 10px;
+}
+
+/* Benefits list */
+#benefits li {
+    margin-bottom: 12px;
+    line-height: 1.7;
+}
+
+
+/* Reviews section */
+#reviews {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+/* Customer names */
+#reviews h3 {
+    color: #1d4ed8;
+    margin-bottom: 8px;
+}
+
+/* Review text */
+#reviews p {
+    color: #555555;
+    font-style: italic;
+}
+
+/* Individual review cards */
+#reviews div {
+    background-color: #f8fafc;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+}
+
+
+/* Call to Action section */
+#contact {
+    background-color: #dbeafe;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 12px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Footer headings */
+footer h3 {
+    color: white;
+}
+
+/* Footer links */
+footer a {
+    color: #bfdbfe;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+/* Footer link hover */
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+/* Arrange navigation items in a row */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+/* Arrange navigation links in a row */
+nav div {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Arrange features using CSS Grid */
+#features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+
+/* Style the features heading */
+#features h2 {
+    width: 100%;
+}
+
+/* Style each feature card */
+#features div {
+    flex: 1 1 200px;
+    background-color: #f5f7fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Hover effect for feature cards */
+#features div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+}
+
+
+/* Responsive design for mobile screens */
+@media screen and (max-width: 600px) {
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    nav div {
+        justify-content: center;
+        gap: 12px;
+    }
+
+    section {
+        margin: 10px;
+        padding: 20px;
+    }
+
+    #home h1 {
+        font-size: 30px;
+    }
+
+    #home p {
+        font-size: 16px;
+    }
+
+    #features div {
+        flex-basis: 100%;
+    }
+
+    button {
+        max-width: 100%;
+    }
+
+}
+
+/* Keyboard accessibility */
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid #f59e0b;
+    outline-offset: 4px;
+}
+
+
+/* Responsive product image */
+#home img {
+    max-width: 100%;
+    width: 350px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Consistent section headings */
+section h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Consistent paragraph spacing */
+section p {
+    line-height: 1.6;
+}
+
